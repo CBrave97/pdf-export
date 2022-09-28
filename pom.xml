@@ -71,6 +71,54 @@
 			<version>1.2.59</version>
 		</dependency>
 
+		<!-- freemarker 读取html模板文件 -->
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+			<version>2.3.23</version>
+		</dependency>
+		<!-- xml 将html模板文件转换成pdf -->
+		<dependency>
+			<groupId>org.xhtmlrenderer</groupId>
+			<artifactId>flying-saucer-pdf</artifactId>
+			<version>9.0.9</version>
+		</dependency>
+
+		<!-- HTML转换为pdf和word所需jar -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.7</version>
+		</dependency>
+
+		<!--lombok-->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+
+		<!--		<dependency>-->
+<!--			<groupId>org.zefer</groupId>-->
+<!--			<artifactId>pd4ml_demo</artifactId>-->
+<!--			<version>1.0</version>-->
+<!--		</dependency>-->
+
+<!--		<dependency>-->
+<!--			<groupId>org.w3c</groupId>-->
+<!--			<artifactId>ss_css2</artifactId>-->
+<!--			<version>1.0</version>-->
+<!--		</dependency>-->
+
+
 	</dependencies>
 
 	<build>
